@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-slide {
+  background-image: url("./HERO-BG.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Center slide text vertically */
+}
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid white;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: transparent;
+}
